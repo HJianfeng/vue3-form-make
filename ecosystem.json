@@ -1,6 +1,6 @@
 {
   "apps" : [{
-     "name" : "vue-el-form-making",
+     "name" : "vue3-form-make",
      "script" : "start.js",
      "env": {
        "COMMON_VARIABLE": "true"
@@ -14,8 +14,8 @@
       "user" : "root",
       "host" : ["120.78.162.6"],
       "post" : "22",
-      "ref"  : "origin/master",
-      "repo" : "git@github.com:HJianfeng/vue-el-form-making.git",
+      "ref"  : "origin/main",
+      "repo" : "git@github.com:HJianfeng/vue3-form-make.git",
       "path" : "/www/vue3FormMaking/production",
       "ssh_options": "StrictHostKeyChecking=no",
       "post-deploy" : "npm install && npm run build",
