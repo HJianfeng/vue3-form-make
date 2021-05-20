@@ -53,7 +53,7 @@ import { useStore } from 'vuex';
 import { computed } from 'vue';
 import _ from 'lodash';
 import WidgetFormItem from './widgetFormItem.vue';
-import draggable from 'vuedraggable'; //由于vuedraggable的bug导致只能这样导入
+import draggable from 'vuedraggable';
 // import draggable from '~/node_modules/vuedraggable/src/vuedraggable'; //由于vuedraggable的bug导致只能这样导入
 
 export default {
